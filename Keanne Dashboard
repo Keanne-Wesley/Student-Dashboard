@@ -1,0 +1,20 @@
+fun main() {
+    // Define course code and titles
+    val courseCode = "A1101"
+    val courses = listOf(
+        "College Logic and Math",
+        "Language and Communication",
+        "Philippine Pop Culture",
+        "Understanding the Self",
+        "PE",
+        "The Contemporary World"
+    )
+    
+    // Display Home title
+    println("Home")
+    
+    // Display each course with its code
+    for (course in courses) {
+        println("$courseCode\t$course")
+    }
+}
